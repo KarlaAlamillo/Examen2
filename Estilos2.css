@@ -1,0 +1,74 @@
+/* ===== Karla Alamillo Palacios
+Diseño Web II ===== */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #ffe6f0, #ffc0cb); 
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #c71585; 
+    margin-top: 40px;
+}
+
+a#btnRegresar {
+    display: inline-block;
+    margin: 20px 0;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    background-color: #ff69b4; 
+    transition: 0.3s ease;
+    box-shadow: 0 4px 10px rgba(255,105,180,0.3);
+}
+
+a#btnRegresar:hover {
+    background-color: #ff1493; 
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(255,20,147,0.5);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 300px;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 8px;
+    border: 2px solid #ff69b4; 
+    outline: none;
+    font-size: 16px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+    border-color: #ff1493; 
+    box-shadow: 0 0 8px rgba(255,20,147,0.5);
+}
+
+button#Boton {
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #ff69b4;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    box-shadow: 0 4px 10px rgba(255,105,180,0.3);
+}
+
+button#Boton:hover {
+    background-color: #ff1493; 
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(255,20,147,0.5);
+}

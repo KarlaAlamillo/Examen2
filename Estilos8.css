@@ -1,0 +1,114 @@
+/* ===== Karla Alamillo Palacios
+Diseño Web II ===== */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #212842, #1e90ff);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+
+h1 {
+    color: #f0e7d5;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+
+h2 {
+    color: #f0e7d5;
+    margin-top: 30px;
+}
+
+
+label {
+    color: #f0e7d5;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+
+input {
+    padding: 10px;
+    margin: 10px 5px;
+    border: 2px solid #1e90ff;
+    border-radius: 6px;
+    outline: none;
+    width: 120px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+input:focus {
+    border-color: #212842;
+    box-shadow: 0 0 8px rgba(30,144,255,0.5);
+}
+
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    background-color: #212842;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+    margin-left: 10px;
+}
+
+button:hover {
+    background-color: #212842;
+    transform: scale(1.05);
+}
+
+
+#productos {
+    list-style: none;
+    margin-top: 25px;
+    width: 320px;
+}
+
+#productos li {
+    background: #f0e7d5;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-left: 6px solid #1e90ff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+#productos li:hover {
+    transform: translateX(5px);
+    background-color: #f0e7d5;
+}
+
+
+#resultados {
+    list-style: none;
+    margin-top: 15px;
+    width: 320px;
+}
+
+#resultados li {
+    background: #212842;
+    color: #f0e7d5;
+    padding: 10px;
+    margin-bottom: 8px;
+    border-radius: 6px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+}

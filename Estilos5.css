@@ -1,0 +1,43 @@
+/* ===== Karla Alamillo Palacios
+Diseño Web II ===== */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #ffe6f0, #ffc0cb); 
+    margin: 0;
+    padding: 20px 40px;
+    line-height: 1.7;
+    color: #4b004b; 
+}
+
+h1 {
+    text-align: center;
+    color: #c71585;
+    margin-bottom: 30px;
+    font-size: 36px;
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 18px;
+    text-align: justify;
+}
+
+a#btnRegresar {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 25px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    background-color: #ff69b4;
+    transition: 0.3s ease;
+    box-shadow: 0 4px 10px rgba(255,105,180,0.3);
+}
+
+a#btnRegresar:hover {
+    background-color: #ff1493; 
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(255,20,147,0.5);
+}
